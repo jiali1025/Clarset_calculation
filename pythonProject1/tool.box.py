@@ -264,6 +264,7 @@ def radical_carbon_accurate(path,carbon_loop,carbon_reloop):
     dlg.show_message(f"The total number of combinations is:{count_zong}\n"
                      f"The percentage of free radicals at each carbon site is the probability of 0~{row_1-1}:\n{b}\n"
                      f"The maximum Clar number in all combinations is {max(benhuan_count)}")
+    os.startfile("C:\\tool.box-result\\open-shell-carbon-exact-site-probability.txt")
 
 def full_carbon_accurate(path,carbon_loop,carbon_reloop):
     sys.stdout = Logger('C:\\tool.box-result\\close-shell-exact-result.txt')
@@ -571,6 +572,7 @@ def radical_carbon_random_sample(path,carbon_loop,carbon_reloop):
     dlg.show_message(f"The total number of combinations is:{count_zong}\n"
                      f"The percentage of free radicals at each carbon site is the probability of 0~{row_1 - 1}:\n{b}\n"
                      f"The maximum Clar number in all combinations is {max(benhuan_count)}")
+    os.startfile("C:\\tool.box-result\\open-shell-carbon-approximate-site-probability.txt")
 
 def full_carbon_random_sample(path,carbon_loop,carbon_reloop):
     sys.stdout = Logger('C:\\tool.box-result\\close-shell-approximate-result.txt')
