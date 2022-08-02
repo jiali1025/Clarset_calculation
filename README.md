@@ -1,3 +1,6 @@
+# Adjacency matrix generation and indexing of atoms in molecules
+Please install rdkit package, pandas package and jupyter notebook. Then the user can simply run the cells in the Matrix_generation.ipynb script to get the image visulization of the skeleton with atom index and the csv file contain the adjacency matrix.
+
 # Clarset_calculation
 ## Software
 Software functions：Quantitively compute the maximum Clar number and radical sites distribution probabilities of a given structure.
